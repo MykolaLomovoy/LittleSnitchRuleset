@@ -1,0 +1,494 @@
+{
+  "description" : "Built-in macOS software and Apple utilities. Excluding Terminal application for security reasons.",
+  "name" : "macOS Software",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1639477716.76965,
+      "modificationDate" : 1639477716.76965,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Utilities\/Activity Monitor.app\/Contents\/MacOS\/Activity Monitor",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477736.87764,
+      "modificationDate" : 1639477736.87764,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Utilities\/AirPort Utility.app\/Contents\/MacOS\/AirPort Utility",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639476897.936281,
+      "modificationDate" : 1639476897.936281,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/App Store.app\/Contents\/MacOS\/App Store",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639476926.913202,
+      "modificationDate" : 1639476926.913202,
+      "owner" : "me",
+      "process" : "\/Applications\/Apple Configurator 2.app\/Contents\/MacOS\/Apple Configurator 2",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477750.5871592,
+      "modificationDate" : 1639477750.5871592,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Utilities\/Audio MIDI Setup.app\/Contents\/MacOS\/Audio MIDI Setup",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639476938.218065,
+      "modificationDate" : 1639476938.218065,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Automator.app\/Contents\/MacOS\/Automator",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477763.836833,
+      "modificationDate" : 1639477763.836833,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Utilities\/Bluetooth File Exchange.app\/Contents\/MacOS\/Bluetooth File Exchange",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639476963.292702,
+      "modificationDate" : 1639476963.292702,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Books.app\/Contents\/MacOS\/Books",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639476976.664221,
+      "modificationDate" : 1639476976.664221,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Calculator.app\/Contents\/MacOS\/Calculator",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639476995.0701032,
+      "modificationDate" : 1639476995.0701032,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Calendar.app\/Contents\/MacOS\/Calendar",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477006.1411929,
+      "modificationDate" : 1639477006.1411929,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Chess.app\/Contents\/MacOS\/Chess",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477776.659646,
+      "modificationDate" : 1639477776.659646,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Utilities\/ColorSync Utility.app\/Contents\/MacOS\/ColorSync Utility",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477788.529213,
+      "modificationDate" : 1639477788.529213,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Utilities\/Console.app\/Contents\/MacOS\/Console",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477176.083225,
+      "modificationDate" : 1639477176.083225,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Contacts.app\/Contents\/MacOS\/Contacts",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477196.7745271,
+      "modificationDate" : 1639477196.7745271,
+      "owner" : "me",
+      "process" : "\/Applications\/Developer.app\/Contents\/MacOS\/Developer",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477213.496383,
+      "modificationDate" : 1639477213.496383,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Dictionary.app\/Contents\/MacOS\/Dictionary",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477801.9512072,
+      "modificationDate" : 1639477801.9512072,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Utilities\/Digital Color Meter.app\/Contents\/MacOS\/Digital Color Meter",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477815.888555,
+      "modificationDate" : 1639477815.888555,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Utilities\/Disk Utility.app\/Contents\/MacOS\/Disk Utility",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477227.0674648,
+      "modificationDate" : 1639477227.0674648,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/FaceTime.app\/Contents\/MacOS\/FaceTime",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477239.638741,
+      "modificationDate" : 1639477239.638741,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/FindMy.app\/Contents\/MacOS\/FindMy",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477252.758934,
+      "modificationDate" : 1639477252.758934,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Font Book.app\/Contents\/MacOS\/Font Book",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477828.143863,
+      "modificationDate" : 1639477828.143863,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Utilities\/Grapher.app\/Contents\/MacOS\/Grapher",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477285.6365681,
+      "modificationDate" : 1639477285.6365681,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Home.app\/Contents\/MacOS\/Home",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477300.6935821,
+      "modificationDate" : 1639477300.6935821,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Image Capture.app\/Contents\/MacOS\/Image Capture",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477314.59798,
+      "modificationDate" : 1639477314.59798,
+      "owner" : "me",
+      "process" : "\/Applications\/iMovie.app\/Contents\/MacOS\/iMovie",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477839.914474,
+      "modificationDate" : 1639477839.914474,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Utilities\/Keychain Access.app\/Contents\/MacOS\/Keychain Access",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477334.0707979,
+      "modificationDate" : 1639477334.0707979,
+      "owner" : "me",
+      "process" : "\/Applications\/Keynote.app\/Contents\/MacOS\/Keynote",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477352.210511,
+      "modificationDate" : 1639477352.210511,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Launchpad.app\/Contents\/MacOS\/Launchpad",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639476864.087852,
+      "modificationDate" : 1639476864.087852,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477366.9715428,
+      "modificationDate" : 1639477366.9715428,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Maps.app\/Contents\/MacOS\/Maps",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477381.3370171,
+      "modificationDate" : 1639477381.3370171,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Messages.app\/Contents\/MacOS\/Messages",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477853.7510772,
+      "modificationDate" : 1639477853.7510772,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Utilities\/Migration Assistant.app\/Contents\/MacOS\/Migration Assistant",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477395.091907,
+      "modificationDate" : 1639477395.091907,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Mission Control.app\/Contents\/MacOS\/Mission Control",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639476800.0630069,
+      "modificationDate" : 1639476852.903168,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Music.app\/Contents\/MacOS\/Music",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477409.4810791,
+      "modificationDate" : 1639477409.4810791,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/News.app\/Contents\/MacOS\/News",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477426.036803,
+      "modificationDate" : 1639477426.036803,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Notes.app\/Contents\/MacOS\/Notes",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477438.3565149,
+      "modificationDate" : 1639477438.3565149,
+      "owner" : "me",
+      "process" : "\/Applications\/Numbers.app\/Contents\/MacOS\/Numbers",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477457.0648839,
+      "modificationDate" : 1639477457.0648839,
+      "owner" : "me",
+      "process" : "\/Applications\/Pages.app\/Contents\/MacOS\/Pages",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477470.086242,
+      "modificationDate" : 1639477470.086242,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Photo Booth.app\/Contents\/MacOS\/Photo Booth",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477484.7222881,
+      "modificationDate" : 1639477484.7222881,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Photos.app\/Contents\/MacOS\/Photos",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477495.9936841,
+      "modificationDate" : 1639477495.9936841,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Podcasts.app\/Contents\/MacOS\/Podcasts",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477509.8312731,
+      "modificationDate" : 1639477509.8312731,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Preview.app\/Contents\/MacOS\/Preview",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477525.9038901,
+      "modificationDate" : 1639477525.9038901,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/QuickTime Player.app\/Contents\/MacOS\/QuickTime Player",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477539.2419381,
+      "modificationDate" : 1639477539.2419381,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Reminders.app\/Contents\/MacOS\/Reminders",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639475963.3764949,
+      "modificationDate" : 1639475963.3764949,
+      "owner" : "me",
+      "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477553.163816,
+      "modificationDate" : 1639477553.163816,
+      "owner" : "me",
+      "process" : "\/Applications\/Safari Technology Preview.app\/Contents\/MacOS\/Safari Technology Preview",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477866.156903,
+      "modificationDate" : 1639477866.156903,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Utilities\/Screenshot.app\/Contents\/MacOS\/Screenshot",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477879.093369,
+      "modificationDate" : 1639477879.093369,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Utilities\/Script Editor.app\/Contents\/MacOS\/Script Editor",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477568.919436,
+      "modificationDate" : 1639477568.919436,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Shortcuts.app\/Contents\/MacOS\/Shortcuts",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477580.9057059,
+      "modificationDate" : 1639477580.9057059,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Siri.app\/Contents\/MacOS\/Siri",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477593.910845,
+      "modificationDate" : 1639477593.910845,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Stickies.app\/Contents\/MacOS\/Stickies",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477608.8180408,
+      "modificationDate" : 1639477608.8180408,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Stocks.app\/Contents\/MacOS\/Stocks",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477893.0995719,
+      "modificationDate" : 1639477893.0995719,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Utilities\/System Information.app\/Contents\/MacOS\/System Information",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477620.770472,
+      "modificationDate" : 1639477620.770472,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/System Preferences.app\/Contents\/MacOS\/System Preferences",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477632.8561211,
+      "modificationDate" : 1639477632.8561211,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/TextEdit.app\/Contents\/MacOS\/TextEdit",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477647.5119538,
+      "modificationDate" : 1639477647.5119538,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Time Machine.app\/Contents\/MacOS\/Time Machine",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477661.851469,
+      "modificationDate" : 1639477661.851469,
+      "owner" : "me",
+      "process" : "\/Applications\/Transporter.app\/Contents\/MacOS\/Transporter",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477674.3558469,
+      "modificationDate" : 1639477674.3558469,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/TV.app\/Contents\/MacOS\/TV",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477691.4784021,
+      "modificationDate" : 1639477691.4784021,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/VoiceMemos.app\/Contents\/MacOS\/VoiceMemos",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477946.433938,
+      "modificationDate" : 1639477946.433938,
+      "owner" : "me",
+      "process" : "\/System\/Applications\/Utilities\/VoiceOver Utility.app\/Contents\/MacOS\/VoiceOver Utility",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639477704.214402,
+      "modificationDate" : 1639477704.214402,
+      "owner" : "me",
+      "process" : "\/Applications\/Xcode.app\/Contents\/MacOS\/Xcode",
+      "remote" : "any"
+    }
+  ]
+}
