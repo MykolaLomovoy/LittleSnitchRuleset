@@ -6,7 +6,7 @@
       "action" : "allow",
       "creationDate" : 1639520359.3070359,
       "modificationDate" : 1639520359.3070359,
-      "owner" : "system",
+      "owner" : "System",
       "process" : "any",
       "remote-domains" : "akamaiedge.net"
     },
@@ -14,7 +14,7 @@
       "action" : "allow",
       "creationDate" : 1639520327.3294039,
       "modificationDate" : 1639520327.3294039,
-      "owner" : "system",
+      "owner" : "System",
       "process" : "any",
       "remote-domains" : "apple.news"
     },
@@ -22,7 +22,7 @@
       "action" : "allow",
       "creationDate" : 1639520390.3025389,
       "modificationDate" : 1639520390.3025389,
-      "owner" : "system",
+      "owner" : "System",
       "process" : "any",
       "remote-domains" : "googleapis.com"
     },
@@ -30,7 +30,7 @@
       "action" : "allow",
       "creationDate" : 1639520215.906832,
       "modificationDate" : 1639520215.906832,
-      "owner" : "system",
+      "owner" : "System",
       "process" : "any",
       "remote-domains" : "icloud-content.com"
     },
@@ -38,7 +38,7 @@
       "action" : "allow",
       "creationDate" : 1639520281.9966059,
       "modificationDate" : 1639520281.9966059,
-      "owner" : "system",
+      "owner" : "System",
       "process" : "any",
       "remote-domains" : "mzstatic.com"
     },
@@ -46,7 +46,7 @@
       "action" : "allow",
       "creationDate" : 1639520340.4681821,
       "modificationDate" : 1639520340.4681821,
-      "owner" : "system",
+      "owner" : "System",
       "process" : "any",
       "remote-domains" : "safebrowsing.apple"
     },
@@ -54,7 +54,7 @@
       "action" : "allow",
       "creationDate" : 1639520308.657831,
       "modificationDate" : 1639520308.657831,
-      "owner" : "system",
+      "owner" : "System",
       "process" : "any",
       "remote-domains" : "apple-cloudkit.com"
     },
@@ -62,7 +62,7 @@
       "action" : "allow",
       "creationDate" : 1639520173.707134,
       "modificationDate" : 1639520173.707134,
-      "owner" : "system",
+      "owner" : "System",
       "process" : "any",
       "remote-domains" : "apple.com"
     },
@@ -70,7 +70,7 @@
       "action" : "allow",
       "creationDate" : 1639520239.5320339,
       "modificationDate" : 1639520239.5320339,
-      "owner" : "system",
+      "owner" : "System",
       "process" : "any",
       "remote-domains" : "cdn-apple.com"
     },
@@ -78,7 +78,7 @@
       "action" : "allow",
       "creationDate" : 1639520200.066365,
       "modificationDate" : 1639520200.066365,
-      "owner" : "system",
+      "owner" : "System",
       "process" : "any",
       "remote-domains" : "icloud.com"
     },
@@ -86,7 +86,7 @@
       "action" : "allow",
       "creationDate" : 1639521358.0207529,
       "modificationDate" : 1639521358.0207529,
-      "owner" : "me",
+      "owner" : "Me",
       "process" : "any",
       "remote-domains" : "akamaiedge.net"
     },
@@ -94,7 +94,7 @@
       "action" : "allow",
       "creationDate" : 1639521418.5089931,
       "modificationDate" : 1639521418.5089931,
-      "owner" : "me",
+      "owner" : "Me",
       "process" : "any",
       "remote-domains" : "apple-cloudkit.com"
     },
@@ -102,7 +102,7 @@
       "action" : "allow",
       "creationDate" : 1639521456.870997,
       "modificationDate" : 1639521456.870997,
-      "owner" : "me",
+      "owner" : "Me",
       "process" : "any",
       "remote-domains" : "cdn-apple.com"
     },
@@ -110,7 +110,7 @@
       "action" : "allow",
       "creationDate" : 1639521464.258168,
       "modificationDate" : 1639521464.258168,
-      "owner" : "me",
+      "owner" : "Me",
       "process" : "any",
       "remote-domains" : "icloud.com"
     },
@@ -118,7 +118,7 @@
       "action" : "allow",
       "creationDate" : 1639521446.368948,
       "modificationDate" : 1639521446.368948,
-      "owner" : "me",
+      "owner" : "Me",
       "process" : "any",
       "remote-domains" : "apple.com"
     },
@@ -126,7 +126,7 @@
       "action" : "allow",
       "creationDate" : 1639521369.707406,
       "modificationDate" : 1639521369.707406,
-      "owner" : "me",
+      "owner" : "Me",
       "process" : "any",
       "remote-domains" : "apple.news"
     },
@@ -134,7 +134,7 @@
       "action" : "allow",
       "creationDate" : 1639521379.3428299,
       "modificationDate" : 1639521379.3428299,
-      "owner" : "me",
+      "owner" : "Me",
       "process" : "any",
       "remote-domains" : "googleapis.com"
     },
@@ -142,7 +142,7 @@
       "action" : "allow",
       "creationDate" : 1639521389.130157,
       "modificationDate" : 1639521389.130157,
-      "owner" : "me",
+      "owner" : "Me",
       "process" : "any",
       "remote-domains" : "icloud-content.com"
     },
@@ -150,7 +150,7 @@
       "action" : "allow",
       "creationDate" : 1639521398.201124,
       "modificationDate" : 1639521398.201124,
-      "owner" : "me",
+      "owner" : "Me",
       "process" : "any",
       "remote-domains" : "mzstatic.com"
     },
@@ -158,7 +158,7 @@
       "action" : "allow",
       "creationDate" : 1639521406.935904,
       "modificationDate" : 1639521406.935904,
-      "owner" : "me",
+      "owner" : "Me",
       "process" : "any",
       "remote-domains" : "safebrowsing.apple"
     },
@@ -166,7 +166,7 @@
       "action" : "allow",
       "creationDate" : 1639520601.1627409,
       "modificationDate" : 1639520601.1627409,
-      "owner" : "system",
+      "owner" : "System",
       "ports" : "123",
       "process" : "any",
       "protocol" : "udp",
