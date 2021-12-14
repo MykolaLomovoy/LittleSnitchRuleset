@@ -8,7 +8,9 @@
       "modificationDate" : 1639520359.3070359,
       "owner" : "system",
       "process" : "any",
-      "remote-domains" : "akamaiedge.net"
+      "remote-domains" : "akamaiedge.net",
+      "protected" : true,
+      "requiresTrustedSignatureForAnyProcess" : true
     },
     {
       "action" : "allow",
@@ -16,7 +18,9 @@
       "modificationDate" : 1639520327.3294039,
       "owner" : "system",
       "process" : "any",
-      "remote-domains" : "apple.news"
+      "remote-domains" : "apple.news",
+      "protected" : true,
+      "requiresTrustedSignatureForAnyProcess" : true
     },
     {
       "action" : "allow",
@@ -24,7 +28,9 @@
       "modificationDate" : 1639520390.3025389,
       "owner" : "system",
       "process" : "any",
-      "remote-domains" : "googleapis.com"
+      "remote-domains" : "googleapis.com",
+      "protected" : true,
+      "requiresTrustedSignatureForAnyProcess" : true
     },
     {
       "action" : "allow",
@@ -32,7 +38,9 @@
       "modificationDate" : 1639520215.906832,
       "owner" : "system",
       "process" : "any",
-      "remote-domains" : "icloud-content.com"
+      "remote-domains" : "icloud-content.com",
+      "protected" : true,
+      "requiresTrustedSignatureForAnyProcess" : true
     },
     {
       "action" : "allow",
@@ -40,7 +48,9 @@
       "modificationDate" : 1639520281.9966059,
       "owner" : "system",
       "process" : "any",
-      "remote-domains" : "mzstatic.com"
+      "remote-domains" : "mzstatic.com",
+      "protected" : true,
+      "requiresTrustedSignatureForAnyProcess" : true
     },
     {
       "action" : "allow",
@@ -48,7 +58,9 @@
       "modificationDate" : 1639520340.4681821,
       "owner" : "system",
       "process" : "any",
-      "remote-domains" : "safebrowsing.apple"
+      "remote-domains" : "safebrowsing.apple",
+      "protected" : true,
+      "requiresTrustedSignatureForAnyProcess" : true
     },
     {
       "action" : "allow",
@@ -56,7 +68,9 @@
       "modificationDate" : 1639520308.657831,
       "owner" : "system",
       "process" : "any",
-      "remote-domains" : "apple-cloudkit.com"
+      "remote-domains" : "apple-cloudkit.com",
+      "protected" : true,
+      "requiresTrustedSignatureForAnyProcess" : true
     },
     {
       "action" : "allow",
@@ -64,7 +78,9 @@
       "modificationDate" : 1639520173.707134,
       "owner" : "system",
       "process" : "any",
-      "remote-domains" : "apple.com"
+      "remote-domains" : "apple.com",
+      "protected" : true,
+      "requiresTrustedSignatureForAnyProcess" : true
     },
     {
       "action" : "allow",
@@ -72,7 +88,9 @@
       "modificationDate" : 1639520239.5320339,
       "owner" : "system",
       "process" : "any",
-      "remote-domains" : "cdn-apple.com"
+      "remote-domains" : "cdn-apple.com",
+      "protected" : true,
+      "requiresTrustedSignatureForAnyProcess" : true
     },
     {
       "action" : "allow",
@@ -80,7 +98,9 @@
       "modificationDate" : 1639520200.066365,
       "owner" : "system",
       "process" : "any",
-      "remote-domains" : "icloud.com"
+      "remote-domains" : "icloud.com",
+      "protected" : true,
+      "requiresTrustedSignatureForAnyProcess" : true
     },
     {
       "action" : "allow",
