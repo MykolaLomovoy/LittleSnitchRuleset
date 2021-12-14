@@ -1,0 +1,25 @@
+{
+  "description" : "Rules enabling Little Snitch update and rules subscriptions.",
+  "name" : "Little Snitch",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1639478953.4420881,
+      "modificationDate" : 1639480055.031486,
+      "owner" : "system",
+      "ports" : "443",
+      "process" : "\/Library\/Application Support\/Objective Development\/Little Snitch\/Components\/at.obdev.littlesnitch.daemon.bundle\/Contents\/XPCServices\/at.obdev.littlesnitch.urldownloader.xpc\/Contents\/MacOS\/at.obdev.littlesnitch.urldownloader",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639476186.7673149,
+      "modificationDate" : 1639476186.7673149,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Little Snitch.app\/Contents\/Components\/Little Snitch Software Update.app\/Contents\/MacOS\/Little Snitch Software Update",
+      "protocol" : "tcp",
+      "remote-domains" : "obdev.at"
+    }
+  ]
+}
