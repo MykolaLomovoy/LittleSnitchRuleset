@@ -9,7 +9,7 @@
       "owner" : "system",
       "process" : "any",
       "remote-domains" : "akamaiedge.net",
-      "protected" : true,
+      "protected" : false,
       "requiresTrustedSignatureForAnyProcess" : true
     },
     {
@@ -19,7 +19,7 @@
       "owner" : "system",
       "process" : "any",
       "remote-domains" : "apple.news",
-      "protected" : true,
+      "protected" : false,
       "requiresTrustedSignatureForAnyProcess" : true
     },
     {
@@ -29,7 +29,7 @@
       "owner" : "system",
       "process" : "any",
       "remote-domains" : "googleapis.com",
-      "protected" : true,
+      "protected" : false,
       "requiresTrustedSignatureForAnyProcess" : true
     },
     {
@@ -39,7 +39,7 @@
       "owner" : "system",
       "process" : "any",
       "remote-domains" : "icloud-content.com",
-      "protected" : true,
+      "protected" : false,
       "requiresTrustedSignatureForAnyProcess" : true
     },
     {
@@ -49,7 +49,7 @@
       "owner" : "system",
       "process" : "any",
       "remote-domains" : "mzstatic.com",
-      "protected" : true,
+      "protected" : false,
       "requiresTrustedSignatureForAnyProcess" : true
     },
     {
@@ -59,7 +59,7 @@
       "owner" : "system",
       "process" : "any",
       "remote-domains" : "safebrowsing.apple",
-      "protected" : true,
+      "protected" : false,
       "requiresTrustedSignatureForAnyProcess" : true
     },
     {
@@ -69,7 +69,7 @@
       "owner" : "system",
       "process" : "any",
       "remote-domains" : "apple-cloudkit.com",
-      "protected" : true,
+      "protected" : false,
       "requiresTrustedSignatureForAnyProcess" : true
     },
     {
@@ -79,7 +79,7 @@
       "owner" : "system",
       "process" : "any",
       "remote-domains" : "apple.com",
-      "protected" : true,
+      "protected" : false,
       "requiresTrustedSignatureForAnyProcess" : true
     },
     {
@@ -89,7 +89,7 @@
       "owner" : "system",
       "process" : "any",
       "remote-domains" : "cdn-apple.com",
-      "protected" : true,
+      "protected" : false,
       "requiresTrustedSignatureForAnyProcess" : true
     },
     {
@@ -99,7 +99,7 @@
       "owner" : "system",
       "process" : "any",
       "remote-domains" : "icloud.com",
-      "protected" : true,
+      "protected" : false,
       "requiresTrustedSignatureForAnyProcess" : true
     },
     {
