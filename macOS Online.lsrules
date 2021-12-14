@@ -10,7 +10,7 @@
       "process" : "any",
       "remote-domains" : "akamaiedge.net",
       "protected" : false,
-      "requiresTrustedSignatureForAnyProcess" : true
+      "uid" : 501
     },
     {
       "action" : "allow",
@@ -20,7 +20,7 @@
       "process" : "any",
       "remote-domains" : "apple.news",
       "protected" : false,
-      "requiresTrustedSignatureForAnyProcess" : true
+      "uid" : 501
     },
     {
       "action" : "allow",
@@ -30,7 +30,7 @@
       "process" : "any",
       "remote-domains" : "googleapis.com",
       "protected" : false,
-      "requiresTrustedSignatureForAnyProcess" : true
+      "uid" : 501
     },
     {
       "action" : "allow",
@@ -40,7 +40,7 @@
       "process" : "any",
       "remote-domains" : "icloud-content.com",
       "protected" : false,
-      "requiresTrustedSignatureForAnyProcess" : true
+      "uid" : 501
     },
     {
       "action" : "allow",
@@ -50,7 +50,7 @@
       "process" : "any",
       "remote-domains" : "mzstatic.com",
       "protected" : false,
-      "requiresTrustedSignatureForAnyProcess" : true
+      "uid" : 501
     },
     {
       "action" : "allow",
@@ -60,7 +60,7 @@
       "process" : "any",
       "remote-domains" : "safebrowsing.apple",
       "protected" : false,
-      "requiresTrustedSignatureForAnyProcess" : true
+      "uid" : 501
     },
     {
       "action" : "allow",
@@ -70,7 +70,7 @@
       "process" : "any",
       "remote-domains" : "apple-cloudkit.com",
       "protected" : false,
-      "requiresTrustedSignatureForAnyProcess" : true
+      "uid" : 501
     },
     {
       "action" : "allow",
@@ -80,7 +80,7 @@
       "process" : "any",
       "remote-domains" : "apple.com",
       "protected" : false,
-      "requiresTrustedSignatureForAnyProcess" : true
+      "uid" : 501
     },
     {
       "action" : "allow",
@@ -90,7 +90,7 @@
       "process" : "any",
       "remote-domains" : "cdn-apple.com",
       "protected" : false,
-      "requiresTrustedSignatureForAnyProcess" : true
+      "uid" : 501
     },
     {
       "action" : "allow",
@@ -100,7 +100,7 @@
       "process" : "any",
       "remote-domains" : "icloud.com",
       "protected" : false,
-      "requiresTrustedSignatureForAnyProcess" : true
+      "uid" : 501
     },
     {
       "action" : "allow",
