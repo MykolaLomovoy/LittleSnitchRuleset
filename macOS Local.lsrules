@@ -27,7 +27,7 @@
     {
       "action" : "allow",
       "creationDate" : 1639529203.767873,
-      "modificationDate" : 1639529203.767873,
+      "modificationDate" : 1639529203.767875,
       "owner" : "any",
       "process" : "any",
       "remote" : "local-net"
