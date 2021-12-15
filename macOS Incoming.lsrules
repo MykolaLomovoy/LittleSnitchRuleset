@@ -1,22 +1,62 @@
 {
-  "description" : "Deny incoming connections to your device.",
+  "description" : "Control incoming connections to your Mac. It is recommended to keep Local connections enabled, and Outside connections disabled. Chose between three available options: Allow, Deny, Ask.",
   "name" : "macOS Incoming",
   "rules" : [
     {
       "action" : "deny",
+      "creationDate" : 1639531113.088841,
+      "direction" : "incoming",
+      "modificationDate" : 1639531137.7402339,
+      "owner" : "any",
+      "process" : "any",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "allow",
       "creationDate" : 1639529218.6717319,
       "direction" : "incoming",
-      "modificationDate" : 1639530271.2125349,
+      "disabled" : true,
+      "modificationDate" : 1639531121.051542,
       "notes" : "Local Network is an alias for your home or company network. Technically speaking, it covers all networks your computer is physically connected to (e.g. via Wi-Fi, ethernet cable, dial-up connection, etc). The represented address ranges are updated with every change of your network configuration.",
       "owner" : "any",
       "process" : "any",
       "remote" : "local-net"
     },
     {
+      "action" : "ask",
+      "creationDate" : 1639531016.221595,
+      "direction" : "incoming",
+      "disabled" : true,
+      "modificationDate" : 1639531122.0850348,
+      "owner" : "any",
+      "process" : "any",
+      "remote" : "local-net"
+    },
+    {
       "action" : "deny",
+      "creationDate" : 1639531077.276958,
+      "direction" : "incoming",
+      "modificationDate" : 1639531139.3244681,
+      "owner" : "any",
+      "process" : "any",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
       "creationDate" : 1639530210.6147389,
       "direction" : "incoming",
-      "modificationDate" : 1639530263.2202401,
+      "disabled" : true,
+      "modificationDate" : 1639531103.3785729,
+      "owner" : "any",
+      "process" : "any",
+      "remote" : "any"
+    },
+    {
+      "action" : "ask",
+      "creationDate" : 1639531085.254081,
+      "direction" : "incoming",
+      "disabled" : true,
+      "modificationDate" : 1639531104.8287802,
       "owner" : "any",
       "process" : "any",
       "remote" : "any"
