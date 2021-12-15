@@ -123,6 +123,24 @@
       "process" : "any",
       "protocol" : "udp",
       "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639534100.4553509,
+      "modificationDate" : 1639534655.950356,
+      "owner" : "me",
+      "process" : "\/System\/Library\/PrivateFrameworks\/GameCenterFoundation.framework\/Versions\/A\/gamed",
+      "protocol" : "udp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639534145.770272,
+      "modificationDate" : 1639534736.40307,
+      "owner" : "system",
+      "process" : "\/usr\/libexec\/wifivelocityd",
+      "protocol" : "icmp",
+      "remote" : "any"
     }
   ]
 }
