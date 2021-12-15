@@ -1,0 +1,30 @@
+{
+  "description" : "These rules provide DNS name resolution and digital certificate verification. Recommended to always keep this group of rules enabled.",
+  "name" : "macOS Connectivity",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1639528112.665062,
+      "modificationDate" : 1639528112.665062,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639528112.6652069,
+      "modificationDate" : 1639528112.6652069,
+      "owner" : "system",
+      "process" : "\/usr\/libexec\/trustd",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639528165.333914,
+      "modificationDate" : 1639528165.333914,
+      "owner" : "me",
+      "process" : "\/usr\/libexec\/trustd",
+      "remote" : "any"
+    }
+  ]
+}
