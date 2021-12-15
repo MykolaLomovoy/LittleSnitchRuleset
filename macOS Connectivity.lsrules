@@ -17,14 +17,6 @@
       "owner" : "system",
       "process" : "\/usr\/libexec\/trustd",
       "remote" : "any"
-    },
-    {
-      "action" : "allow",
-      "creationDate" : 1639528165.333914,
-      "modificationDate" : 1639528165.333914,
-      "owner" : "me",
-      "process" : "\/usr\/libexec\/trustd",
-      "remote" : "any"
     }
   ]
 }
