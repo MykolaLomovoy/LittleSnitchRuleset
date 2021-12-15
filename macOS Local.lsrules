@@ -31,14 +31,6 @@
       "owner" : "any",
       "process" : "any",
       "remote" : "local-net"
-    },
-    {
-      "action" : "allow",
-      "creationDate" : 1639527413.774303,
-      "modificationDate" : 1639529173.8067551,
-      "owner" : "any",
-      "process" : "any",
-      "remote" : "any"
     }
   ]
 }
