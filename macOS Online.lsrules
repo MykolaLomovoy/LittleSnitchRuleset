@@ -141,6 +141,15 @@
       "process" : "\/usr\/libexec\/wifivelocityd",
       "protocol" : "icmp",
       "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639585050.4342871,
+      "modificationDate" : 1639587656.8420391,
+      "owner" : "me",
+      "process" : "\/System\/Library\/PrivateFrameworks\/IDS.framework\/identityservicesd.app\/Contents\/MacOS\/identityservicesd",
+      "protocol" : "udp",
+      "remote" : "any"
     }
   ]
 }
