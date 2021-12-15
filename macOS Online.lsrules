@@ -1,191 +1,235 @@
 {
-  "description" : "macOS online services connectivity. Akamai and Google both included, as some system services rely on access to these domains.",
+  "description" : "",
   "name" : "macOS Online",
   "rules" : [
     {
       "action" : "allow",
-      "creationDate" : 1639520359.3070359,
-      "modificationDate" : 1639520359.3070359,
+      "creationDate" : 1639520359,
+      "modificationDate" : 1639526628.7108181,
       "owner" : "system",
       "process" : "any",
-      "remote-domains" : "akamaiedge.net",
-      "protected" : false,
-      "uid" : 501
+      "remote-domains" : "akamaiedge.net"
     },
     {
       "action" : "allow",
-      "creationDate" : 1639520327.3294039,
-      "modificationDate" : 1639520327.3294039,
+      "creationDate" : 1639526821.132216,
+      "modificationDate" : 1639526821.132216,
       "owner" : "system",
       "process" : "any",
-      "remote-domains" : "apple.news",
-      "protected" : false,
-      "uid" : 501
+      "remote-domains" : "amazonaws.com"
     },
     {
       "action" : "allow",
-      "creationDate" : 1639520390.3025389,
-      "modificationDate" : 1639520390.3025389,
+      "creationDate" : 1639520308,
+      "modificationDate" : 1639526628.71416,
       "owner" : "system",
       "process" : "any",
-      "remote-domains" : "googleapis.com",
-      "protected" : false,
-      "uid" : 501
+      "remote-domains" : "apple-cloudkit.com"
     },
     {
       "action" : "allow",
-      "creationDate" : 1639520215.906832,
-      "modificationDate" : 1639520215.906832,
+      "creationDate" : 1639520173,
+      "modificationDate" : 1639526628.714566,
       "owner" : "system",
       "process" : "any",
-      "remote-domains" : "icloud-content.com",
-      "protected" : false,
-      "uid" : 501
+      "remote-domains" : "apple.com"
     },
     {
       "action" : "allow",
-      "creationDate" : 1639520281.9966059,
-      "modificationDate" : 1639520281.9966059,
+      "creationDate" : 1639520327,
+      "modificationDate" : 1639526628.712126,
       "owner" : "system",
       "process" : "any",
-      "remote-domains" : "mzstatic.com",
-      "protected" : false,
-      "uid" : 501
+      "remote-domains" : "apple.news"
     },
     {
       "action" : "allow",
-      "creationDate" : 1639520340.4681821,
-      "modificationDate" : 1639520340.4681821,
+      "creationDate" : 1639520239,
+      "modificationDate" : 1639526628.7149191,
       "owner" : "system",
       "process" : "any",
-      "remote-domains" : "safebrowsing.apple",
-      "protected" : false,
-      "uid" : 501
+      "remote-domains" : "cdn-apple.com"
     },
     {
       "action" : "allow",
-      "creationDate" : 1639520308.657831,
-      "modificationDate" : 1639520308.657831,
+      "creationDate" : 1639520390,
+      "modificationDate" : 1639526628.7126,
       "owner" : "system",
       "process" : "any",
-      "remote-domains" : "apple-cloudkit.com",
-      "protected" : false,
-      "uid" : 501
+      "remote-domains" : "googleapis.com"
     },
     {
       "action" : "allow",
-      "creationDate" : 1639520173.707134,
-      "modificationDate" : 1639520173.707134,
+      "creationDate" : 1639520215,
+      "modificationDate" : 1639526628.713007,
       "owner" : "system",
       "process" : "any",
-      "remote-domains" : "apple.com",
-      "protected" : false,
-      "uid" : 501
+      "remote-domains" : "icloud-content.com"
     },
     {
       "action" : "allow",
-      "creationDate" : 1639520239.5320339,
-      "modificationDate" : 1639520239.5320339,
+      "creationDate" : 1639520200,
+      "modificationDate" : 1639526628.7153039,
       "owner" : "system",
       "process" : "any",
-      "remote-domains" : "cdn-apple.com",
-      "protected" : false,
-      "uid" : 501
+      "remote-domains" : "icloud.com"
     },
     {
       "action" : "allow",
-      "creationDate" : 1639520200.066365,
-      "modificationDate" : 1639520200.066365,
+      "creationDate" : 1639526795.088238,
+      "modificationDate" : 1639526795.088238,
       "owner" : "system",
       "process" : "any",
-      "remote-domains" : "icloud.com",
-      "protected" : false,
-      "uid" : 501
+      "remote-domains" : "mastercard.com"
     },
     {
       "action" : "allow",
-      "creationDate" : 1639521358.0207529,
-      "modificationDate" : 1639521358.0207529,
+      "creationDate" : 1639520281,
+      "modificationDate" : 1639526628.713397,
+      "owner" : "system",
+      "process" : "any",
+      "remote-domains" : "mzstatic.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639520340,
+      "modificationDate" : 1639526628.713763,
+      "owner" : "system",
+      "process" : "any",
+      "remote-domains" : "safebrowsing.apple"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639526809.828547,
+      "modificationDate" : 1639526809.828547,
+      "owner" : "system",
+      "process" : "any",
+      "remote-domains" : "visa.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639526837.420361,
+      "modificationDate" : 1639526837.420361,
+      "owner" : "system",
+      "process" : "any",
+      "remote-domains" : "yahoo.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639521358,
+      "modificationDate" : 1639526628.7156811,
       "owner" : "me",
       "process" : "any",
       "remote-domains" : "akamaiedge.net"
     },
     {
       "action" : "allow",
-      "creationDate" : 1639521418.5089931,
-      "modificationDate" : 1639521418.5089931,
+      "creationDate" : 1639526731.5666099,
+      "modificationDate" : 1639526731.5666099,
+      "owner" : "me",
+      "process" : "any",
+      "remote-domains" : "amazonaws.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639521418,
+      "modificationDate" : 1639526628.7160039,
       "owner" : "me",
       "process" : "any",
       "remote-domains" : "apple-cloudkit.com"
     },
     {
       "action" : "allow",
-      "creationDate" : 1639521456.870997,
-      "modificationDate" : 1639521456.870997,
-      "owner" : "me",
-      "process" : "any",
-      "remote-domains" : "cdn-apple.com"
-    },
-    {
-      "action" : "allow",
-      "creationDate" : 1639521464.258168,
-      "modificationDate" : 1639521464.258168,
-      "owner" : "me",
-      "process" : "any",
-      "remote-domains" : "icloud.com"
-    },
-    {
-      "action" : "allow",
-      "creationDate" : 1639521446.368948,
-      "modificationDate" : 1639521446.368948,
+      "creationDate" : 1639521446,
+      "modificationDate" : 1639526628.7166591,
       "owner" : "me",
       "process" : "any",
       "remote-domains" : "apple.com"
     },
     {
       "action" : "allow",
-      "creationDate" : 1639521369.707406,
-      "modificationDate" : 1639521369.707406,
+      "creationDate" : 1639521369,
+      "modificationDate" : 1639526628.71698,
       "owner" : "me",
       "process" : "any",
       "remote-domains" : "apple.news"
     },
     {
       "action" : "allow",
-      "creationDate" : 1639521379.3428299,
-      "modificationDate" : 1639521379.3428299,
+      "creationDate" : 1639521456,
+      "modificationDate" : 1639526628.7163329,
+      "owner" : "me",
+      "process" : "any",
+      "remote-domains" : "cdn-apple.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639521379,
+      "modificationDate" : 1639526628.71733,
       "owner" : "me",
       "process" : "any",
       "remote-domains" : "googleapis.com"
     },
     {
       "action" : "allow",
-      "creationDate" : 1639521389.130157,
-      "modificationDate" : 1639521389.130157,
+      "creationDate" : 1639521389,
+      "modificationDate" : 1639526628.717649,
       "owner" : "me",
       "process" : "any",
       "remote-domains" : "icloud-content.com"
     },
     {
       "action" : "allow",
-      "creationDate" : 1639521398.201124,
-      "modificationDate" : 1639521398.201124,
+      "creationDate" : 1639521464,
+      "modificationDate" : 1639526628.7179589,
+      "owner" : "me",
+      "process" : "any",
+      "remote-domains" : "icloud.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639526695.8203568,
+      "modificationDate" : 1639526695.8203568,
+      "owner" : "me",
+      "process" : "any",
+      "remote-domains" : "mastercard.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639521398,
+      "modificationDate" : 1639526628.7182789,
       "owner" : "me",
       "process" : "any",
       "remote-domains" : "mzstatic.com"
     },
     {
       "action" : "allow",
-      "creationDate" : 1639521406.935904,
-      "modificationDate" : 1639521406.935904,
+      "creationDate" : 1639521406,
+      "modificationDate" : 1639526628.71859,
       "owner" : "me",
       "process" : "any",
       "remote-domains" : "safebrowsing.apple"
     },
     {
       "action" : "allow",
-      "creationDate" : 1639520601.1627409,
-      "modificationDate" : 1639520601.1627409,
+      "creationDate" : 1639526714.6941741,
+      "modificationDate" : 1639526714.6941741,
+      "owner" : "me",
+      "process" : "any",
+      "remote-domains" : "visa.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639526780.902163,
+      "modificationDate" : 1639526780.902163,
+      "owner" : "me",
+      "process" : "any",
+      "remote-domains" : "yahoo.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639520601,
+      "modificationDate" : 1639526628.7189341,
       "owner" : "system",
       "ports" : "123",
       "process" : "any",
