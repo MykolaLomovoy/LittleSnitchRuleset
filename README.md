@@ -12,4 +12,4 @@ A set of rules for the macOS firewall configuration GUI - Little Snitch.
 
 5. macOS Online - a set of rules to allow basic Global network connections to Apple servers.
 
-6. macOS Software - a set of rules to allow build-in Apple software and utilities, as well as, some utilities developed by Apple, but available via AppStore.
+6. macOS Software - a set of rules to allow built-in Apple software and utilities, as well as, some utilities developed by Apple, but available via AppStore.
