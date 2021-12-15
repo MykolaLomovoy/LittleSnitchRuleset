@@ -1,0 +1,25 @@
+{
+  "description" : "Deny incoming connections to your device.",
+  "name" : "macOS Incoming",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1639529218.6717319,
+      "direction" : "incoming",
+      "modificationDate" : 1639530271.2125349,
+      "notes" : "Local Network is an alias for your home or company network. Technically speaking, it covers all networks your computer is physically connected to (e.g. via Wi-Fi, ethernet cable, dial-up connection, etc). The represented address ranges are updated with every change of your network configuration.",
+      "owner" : "any",
+      "process" : "any",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1639530210.6147389,
+      "direction" : "incoming",
+      "modificationDate" : 1639530263.2202401,
+      "owner" : "any",
+      "process" : "any",
+      "remote" : "any"
+    }
+  ]
+}
