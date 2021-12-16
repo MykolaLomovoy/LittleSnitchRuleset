@@ -4,6 +4,15 @@
   "rules" : [
     {
       "action" : "allow",
+      "creationDate" : 1639654953.5907331,
+      "disabled" : true,
+      "modificationDate" : 1639654953.5907331,
+      "owner" : "system",
+      "process" : "\/usr\/libexec\/bootpd",
+      "remote" : "bpf"
+    },
+    {
+      "action" : "allow",
       "creationDate" : 1639527147.049974,
       "direction" : "incoming",
       "modificationDate" : 1639529161.6861281,
