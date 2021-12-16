@@ -1,0 +1,23 @@
+{
+  "description" : "A set of rules for Code Recipes application.",
+  "name" : "Code Recipes",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1639658905.445004,
+      "direction" : "incoming",
+      "modificationDate" : 1639658905.445004,
+      "owner" : "me",
+      "process" : "\/Applications\/Code Recipes.app\/Contents\/MacOS\/Code Recipes",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1639532078.807241,
+      "modificationDate" : 1639532078.807241,
+      "owner" : "me",
+      "process" : "\/Applications\/Code Recipes.app\/Contents\/MacOS\/Code Recipes",
+      "remote" : "any"
+    }
+  ]
+}

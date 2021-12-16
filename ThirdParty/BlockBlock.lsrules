@@ -1,0 +1,50 @@
+{
+  "description" : "A set of rules for BlockBlock Helper application.",
+  "name" : "BlockBlock",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1639658855.711792,
+      "direction" : "incoming",
+      "modificationDate" : 1639658855.711792,
+      "owner" : "me",
+      "process" : "\/Applications\/BlockBlock Helper.app\/Contents\/MacOS\/BlockBlock Helper",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639537847.838424,
+      "modificationDate" : 1639538159.53951,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/BlockBlock Helper.app\/Contents\/MacOS\/BlockBlock Helper",
+      "remote-domains" : "objective-see.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639537847.838424,
+      "modificationDate" : 1639538159.53951,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/BlockBlock Helper.app\/Contents\/MacOS\/BlockBlock Helper",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639537847.838424,
+      "modificationDate" : 1639538159.53951,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/BlockBlock Helper.app\/Contents\/MacOS\/BlockBlock Helper",
+      "remote-domains" : "githubusercontent.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1639538163.1562991,
+      "modificationDate" : 1639538163.1562991,
+      "owner" : "me",
+      "process" : "\/Applications\/BlockBlock Helper.app\/Contents\/MacOS\/BlockBlock Helper",
+      "remote" : "any"
+    }
+  ]
+}

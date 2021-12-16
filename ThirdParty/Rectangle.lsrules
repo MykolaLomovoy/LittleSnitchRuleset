@@ -1,0 +1,50 @@
+{
+  "description" : "A set of rules for Rectangle application.",
+  "name" : "Rectangle",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1639659553.6772161,
+      "direction" : "incoming",
+      "modificationDate" : 1639659553.6772161,
+      "owner" : "me",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/Rectangle.app\/Contents\/MacOS\/Rectangle",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639481741,
+      "modificationDate" : 1639531600.756016,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/Rectangle.app\/Contents\/MacOS\/Rectangle",
+      "remote-domains" : "rectangleapp.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639481741,
+      "modificationDate" : 1639531600.756016,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/Rectangle.app\/Contents\/MacOS\/Rectangle",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639481741,
+      "modificationDate" : 1639531600.756016,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/Rectangle.app\/Contents\/MacOS\/Rectangle",
+      "remote-domains" : "githubusercontent.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1639531572.6133749,
+      "modificationDate" : 1639531572.6133749,
+      "owner" : "me",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/Rectangle.app\/Contents\/MacOS\/Rectangle",
+      "remote" : "any"
+    }
+  ]
+}

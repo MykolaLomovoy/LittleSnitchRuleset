@@ -1,0 +1,50 @@
+{
+  "description" : "A set of rules for IINA application.",
+  "name" : "IINA",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1639659080.8043189,
+      "direction" : "incoming",
+      "modificationDate" : 1639659080.8043189,
+      "owner" : "me",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/IINA.app\/Contents\/MacOS\/IINA",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639483685,
+      "modificationDate" : 1639531677.433497,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/IINA.app\/Contents\/MacOS\/IINA",
+      "remote-domains" : "iina.io"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639483685,
+      "modificationDate" : 1639531677.433497,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/IINA.app\/Contents\/MacOS\/IINA",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639483685,
+      "modificationDate" : 1639531677.433497,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/IINA.app\/Contents\/MacOS\/IINA",
+      "remote-domains" : "githubusercontent.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1639531681.121021,
+      "modificationDate" : 1639531681.121021,
+      "owner" : "me",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/IINA.app\/Contents\/MacOS\/IINA",
+      "remote" : "any"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "description" : "A set of rules for KnockKnock application.",
+  "name" : "KnockKnock",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1639659142.427855,
+      "direction" : "incoming",
+      "modificationDate" : 1639659142.427855,
+      "owner" : "me",
+      "process" : "\/Applications\/KnockKnock.app\/Contents\/MacOS\/KnockKnock",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639537013.051862,
+      "modificationDate" : 1639538206.178524,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/KnockKnock.app\/Contents\/MacOS\/KnockKnock",
+      "remote-domains" : "objective-see.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639537120.7935629,
+      "modificationDate" : 1639538200.8999,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/KnockKnock.app\/Contents\/MacOS\/KnockKnock",
+      "remote-domains" : "virustotal.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639537013.051862,
+      "modificationDate" : 1639538206.178524,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/KnockKnock.app\/Contents\/MacOS\/KnockKnock",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639537013.051862,
+      "modificationDate" : 1639538206.178524,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/KnockKnock.app\/Contents\/MacOS\/KnockKnock",
+      "remote-domains" : "githubusercontent.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1639538210.972404,
+      "modificationDate" : 1639538227.503643,
+      "owner" : "me",
+      "process" : "\/Applications\/KnockKnock.app\/Contents\/MacOS\/KnockKnock",
+      "remote" : "any"
+    }
+  ]
+}

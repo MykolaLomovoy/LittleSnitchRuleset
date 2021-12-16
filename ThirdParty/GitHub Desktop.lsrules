@@ -1,0 +1,41 @@
+{
+  "description" : "A set of rules for GitHub Desktop application.",
+  "name" : "GitHub Desktop",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1639659031.9379091,
+      "direction" : "incoming",
+      "modificationDate" : 1639659031.9379091,
+      "owner" : "me",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/GitHub Desktop.app\/Contents\/MacOS\/GitHub Desktop",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639478739,
+      "modificationDate" : 1639531744.842165,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/GitHub Desktop.app\/Contents\/MacOS\/GitHub Desktop",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639478748,
+      "modificationDate" : 1639531750.2077971,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/GitHub Desktop.app\/Contents\/MacOS\/GitHub Desktop",
+      "remote-domains" : "githubusercontent.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1639531753.897629,
+      "modificationDate" : 1639531753.897629,
+      "owner" : "me",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/GitHub Desktop.app\/Contents\/MacOS\/GitHub Desktop",
+      "remote" : "any"
+    }
+  ]
+}

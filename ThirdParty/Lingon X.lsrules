@@ -1,0 +1,50 @@
+{
+  "description" : "A set of rules for Lingon X application.",
+  "name" : "Lingon X",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1639659188.3278189,
+      "direction" : "incoming",
+      "modificationDate" : 1639659188.3278189,
+      "owner" : "me",
+      "process" : "\/Applications\/Lingon X.app\/Contents\/MacOS\/Lingon X",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639536503.6587369,
+      "modificationDate" : 1639538240.078392,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Lingon X.app\/Contents\/MacOS\/Lingon X",
+      "remote-domains" : "peterborgapps.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639536503.6587369,
+      "modificationDate" : 1639538240.078392,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Lingon X.app\/Contents\/MacOS\/Lingon X",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639536503.6587369,
+      "modificationDate" : 1639538240.078392,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Lingon X.app\/Contents\/MacOS\/Lingon X",
+      "remote-domains" : "githubusercontent.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1639538243.117965,
+      "modificationDate" : 1639538243.117965,
+      "owner" : "me",
+      "process" : "\/Applications\/Lingon X.app\/Contents\/MacOS\/Lingon X",
+      "remote" : "any"
+    }
+  ]
+}

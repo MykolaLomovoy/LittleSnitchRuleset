@@ -1,0 +1,94 @@
+{
+  "description" : "A set of rules for ReiKey application.",
+  "name" : "ReiKey",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1639659595.691134,
+      "direction" : "incoming",
+      "modificationDate" : 1639659595.691134,
+      "owner" : "me",
+      "process" : "\/Applications\/ReiKey.app\/Contents\/MacOS\/ReiKey",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639537730.9576311,
+      "modificationDate" : 1639538270.7244921,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/ReiKey.app\/Contents\/MacOS\/ReiKey",
+      "remote-domains" : "objective-see.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639537730.9576311,
+      "modificationDate" : 1639538270.7244921,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/ReiKey.app\/Contents\/MacOS\/ReiKey",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639537730.9576311,
+      "modificationDate" : 1639538270.7244921,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/ReiKey.app\/Contents\/MacOS\/ReiKey",
+      "remote-domains" : "githubusercontent.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1639538283.9167819,
+      "modificationDate" : 1639538283.9167819,
+      "owner" : "me",
+      "process" : "\/Applications\/ReiKey.app\/Contents\/MacOS\/ReiKey",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1639659604.154655,
+      "direction" : "incoming",
+      "modificationDate" : 1639659604.154655,
+      "owner" : "me",
+      "process" : "\/Applications\/ReiKey.app\/Contents\/Library\/LoginItems\/ReiKey Helper.app\/Contents\/MacOS\/ReiKey Helper",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639537734.927248,
+      "modificationDate" : 1639538275.563103,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/ReiKey.app\/Contents\/Library\/LoginItems\/ReiKey Helper.app\/Contents\/MacOS\/ReiKey Helper",
+      "remote-domains" : "objective-see.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639537734.927248,
+      "modificationDate" : 1639538275.563103,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/ReiKey.app\/Contents\/Library\/LoginItems\/ReiKey Helper.app\/Contents\/MacOS\/ReiKey Helper",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639537734.927248,
+      "modificationDate" : 1639538275.563103,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/ReiKey.app\/Contents\/Library\/LoginItems\/ReiKey Helper.app\/Contents\/MacOS\/ReiKey Helper",
+      "remote-domains" : "githubusercontent.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1639538300.4207549,
+      "modificationDate" : 1639538300.4207549,
+      "owner" : "me",
+      "process" : "\/Applications\/ReiKey.app\/Contents\/Library\/LoginItems\/ReiKey Helper.app\/Contents\/MacOS\/ReiKey Helper",
+      "remote" : "any"
+    }
+  ]
+}

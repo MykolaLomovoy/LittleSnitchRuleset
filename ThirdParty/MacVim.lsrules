@@ -1,0 +1,41 @@
+{
+  "description" : "A set of rules for MacVim application.",
+  "name" : "MacVim",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1639659299.7654829,
+      "direction" : "incoming",
+      "modificationDate" : 1639659299.7654829,
+      "owner" : "me",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/MacVim.app\/Contents\/MacOS\/MacVim",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639517877,
+      "modificationDate" : 1639531651.1899939,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/MacVim.app\/Contents\/MacOS\/MacVim",
+      "remote-domains" : "githubusercontent.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639517877,
+      "modificationDate" : 1639531651.1899939,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/MacVim.app\/Contents\/MacOS\/MacVim",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1639531654.6114171,
+      "modificationDate" : 1639531654.6114171,
+      "owner" : "me",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/MacVim.app\/Contents\/MacOS\/MacVim",
+      "remote" : "any"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "description" : "A set of rules for OverSight application.",
+  "name" : "OverSight",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1639659491.731632,
+      "direction" : "incoming",
+      "modificationDate" : 1639659491.731632,
+      "owner" : "me",
+      "process" : "\/Applications\/OverSight.app\/Contents\/MacOS\/OverSight",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639538595.1171188,
+      "modificationDate" : 1639538633.034899,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/OverSight.app\/Contents\/MacOS\/OverSight",
+      "remote-domains" : "objective-see.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639538595.1171188,
+      "modificationDate" : 1639538633.034899,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/OverSight.app\/Contents\/MacOS\/OverSight",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639538595.1171188,
+      "modificationDate" : 1639538633.034899,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/OverSight.app\/Contents\/MacOS\/OverSight",
+      "remote-domains" : "githubusercontent.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1639538636.08992,
+      "modificationDate" : 1639538636.08992,
+      "owner" : "me",
+      "process" : "\/Applications\/OverSight.app\/Contents\/MacOS\/OverSight",
+      "remote" : "any"
+    }
+  ]
+}

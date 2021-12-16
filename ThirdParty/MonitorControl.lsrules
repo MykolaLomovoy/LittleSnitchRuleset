@@ -1,0 +1,50 @@
+{
+  "description" : "A set of rules for MonitorControl application.",
+  "name" : "MonitorControl",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1639659381.1111569,
+      "direction" : "incoming",
+      "modificationDate" : 1639659381.1111569,
+      "owner" : "me",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/MonitorControl.app\/Contents\/MacOS\/MonitorControl",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639540574.2932229,
+      "modificationDate" : 1639640608.8118849,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/MonitorControl.app\/Contents\/MacOS\/MonitorControl",
+      "remote-domains" : "monitorcontrol.app"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639540574.2932229,
+      "modificationDate" : 1639640608.8118849,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/MonitorControl.app\/Contents\/MacOS\/MonitorControl",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639540574.2932229,
+      "modificationDate" : 1639640608.8118849,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/MonitorControl.app\/Contents\/MacOS\/MonitorControl",
+      "remote-domains" : "githubusercontent.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1639640620.736515,
+      "modificationDate" : 1639640620.736515,
+      "owner" : "me",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/MonitorControl.app\/Contents\/MacOS\/MonitorControl",
+      "remote" : "any"
+    }
+  ]
+}

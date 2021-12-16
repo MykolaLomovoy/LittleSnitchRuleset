@@ -1,0 +1,41 @@
+{
+  "description" : "A set of rules for Stats application.",
+  "name" : "Stats",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1639659641.664602,
+      "direction" : "incoming",
+      "modificationDate" : 1639659641.664602,
+      "owner" : "me",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/Stats.app\/Contents\/MacOS\/Stats",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639476608,
+      "modificationDate" : 1639531616.597904,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/Stats.app\/Contents\/MacOS\/Stats",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639476608,
+      "modificationDate" : 1639531616.597904,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/Stats.app\/Contents\/MacOS\/Stats",
+      "remote-domains" : "githubusercontent.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1639476675,
+      "modificationDate" : 1639476675,
+      "owner" : "me",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/Stats.app\/Contents\/MacOS\/Stats",
+      "remote" : "any"
+    }
+  ]
+}

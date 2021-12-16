@@ -1,0 +1,23 @@
+{
+  "description" : "A set of rules for The Unarchiver application.",
+  "name" : "The Unarchiver",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1639659746.9903951,
+      "direction" : "incoming",
+      "modificationDate" : 1639659746.9903951,
+      "owner" : "me",
+      "process" : "\/Applications\/The Unarchiver.app\/Contents\/MacOS\/The Unarchiver",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1639532003.6303802,
+      "modificationDate" : 1639532003.6303802,
+      "owner" : "me",
+      "process" : "\/Applications\/The Unarchiver.app\/Contents\/MacOS\/The Unarchiver",
+      "remote" : "any"
+    }
+  ]
+}

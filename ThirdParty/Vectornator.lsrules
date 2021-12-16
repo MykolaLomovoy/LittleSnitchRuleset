@@ -1,0 +1,23 @@
+{
+  "description" : "A set of rules for Vectornator application.",
+  "name" : "Vectornator",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1639659786.0897388,
+      "direction" : "incoming",
+      "modificationDate" : 1639659786.0897388,
+      "owner" : "me",
+      "process" : "\/Applications\/Vectornator.app\/Contents\/MacOS\/Vectornator",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1639531951.381026,
+      "modificationDate" : 1639531951.381026,
+      "owner" : "me",
+      "process" : "\/Applications\/Vectornator.app\/Contents\/MacOS\/Vectornator",
+      "remote" : "any"
+    }
+  ]
+}

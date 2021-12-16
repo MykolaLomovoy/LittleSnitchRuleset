@@ -1,0 +1,59 @@
+{
+  "description" : "A set of rules for Safari Browser Extension - AdGuard for Safari.",
+  "name" : "AdGuard",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1639658735.169373,
+      "direction" : "incoming",
+      "modificationDate" : 1639658735.169373,
+      "owner" : "me",
+      "process" : "\/Applications\/AdGuard for Safari.app\/Contents\/MacOS\/AdGuard for Safari",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639485470,
+      "modificationDate" : 1639486010,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/AdGuard for Safari.app\/Contents\/MacOS\/AdGuard for Safari",
+      "remote-domains" : "adblockplus.org"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639485204,
+      "modificationDate" : 1639519823,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/AdGuard for Safari.app\/Contents\/MacOS\/AdGuard for Safari",
+      "remote-domains" : "adtidy.org"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639485204,
+      "modificationDate" : 1639519823,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/AdGuard for Safari.app\/Contents\/MacOS\/AdGuard for Safari",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639485204,
+      "modificationDate" : 1639519823,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/AdGuard for Safari.app\/Contents\/MacOS\/AdGuard for Safari",
+      "remote-domains" : "githubusercontent.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1639531846.908819,
+      "modificationDate" : 1639531846.908819,
+      "owner" : "me",
+      "process" : "\/Applications\/AdGuard for Safari.app\/Contents\/MacOS\/AdGuard for Safari",
+      "remote" : "any"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "description" : "A set of rules for EasyFind application.",
+  "name" : "EasyFind",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1639658991.1754799,
+      "direction" : "incoming",
+      "modificationDate" : 1639658991.1754799,
+      "owner" : "me",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/EasyFind.app\/Contents\/MacOS\/EasyFind",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639620467.7012482,
+      "modificationDate" : 1639658974.2798581,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/EasyFind.app\/Contents\/MacOS\/EasyFind",
+      "remote-domains" : "devontechnologies.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639620467.7012482,
+      "modificationDate" : 1639658974.2798581,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/EasyFind.app\/Contents\/MacOS\/EasyFind",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639620467.7012482,
+      "modificationDate" : 1639658974.2798581,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/EasyFind.app\/Contents\/MacOS\/EasyFind",
+      "remote-domains" : "githubusercontent.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1639658977.6182871,
+      "modificationDate" : 1639658977.6182871,
+      "owner" : "me",
+      "process" : "\/Users\/mykolalomovoy\/Applications\/EasyFind.app\/Contents\/MacOS\/EasyFind",
+      "remote" : "any"
+    }
+  ]
+}

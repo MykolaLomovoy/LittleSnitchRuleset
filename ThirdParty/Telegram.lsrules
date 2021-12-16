@@ -1,0 +1,32 @@
+{
+  "description" : "A set of rules for Telegram application.",
+  "name" : "Telegram",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1639659707.91168,
+      "direction" : "incoming",
+      "modificationDate" : 1639659707.91168,
+      "owner" : "me",
+      "process" : "\/Applications\/Telegram.app\/Contents\/MacOS\/Telegram",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639476000,
+      "modificationDate" : 1639531625.71545,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Telegram.app\/Contents\/MacOS\/Telegram",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1639476725,
+      "modificationDate" : 1639476725,
+      "owner" : "me",
+      "process" : "\/Applications\/Telegram.app\/Contents\/MacOS\/Telegram",
+      "remote" : "any"
+    }
+  ]
+}
