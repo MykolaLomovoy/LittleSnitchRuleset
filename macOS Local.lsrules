@@ -39,17 +39,6 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1639527147.049974,
-      "direction" : "incoming",
-      "modificationDate" : 1639529161.6861281,
-      "owner" : "any",
-      "ports" : "68",
-      "process" : "any",
-      "protocol" : "udp",
-      "remote" : "any"
-    },
-    {
-      "action" : "allow",
       "creationDate" : 1639529267.3216128,
       "direction" : "incoming",
       "modificationDate" : 1639529310.563796,
