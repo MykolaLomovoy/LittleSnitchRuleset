@@ -1,5 +1,5 @@
 {
-  "description" : "Allows online connection for any Apple services, including additional domains used by Apple - Google API, Amazon AWS, Yahoo, Mastercard, Visa.",
+  "description" : "Allows Online connection for any Apple services, including additional domains used by Apple - Google API, Amazon AWS, Yahoo, Mastercard, Visa, various Digital Certification Authorities, DNS services, CDN services. This group or rules allows proper operation of macOS operating system and Apple software.",
   "name" : "macOS Online",
   "rules" : [
     {

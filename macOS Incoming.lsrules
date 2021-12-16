@@ -1,11 +1,12 @@
 {
-  "description" : "Control incoming connections to your Mac. It is recommended to keep Local connections enabled, and Outside connections disabled. Chose between three available options: Allow, Deny, Ask.",
+  "description" : "Control incoming connections to your Mac. Chose between available options. By default, these options are all inactive in order to provide user with the confirmation prompt for any events of incoming connection except for those listed in other rule groups.",
   "name" : "macOS Incoming",
   "rules" : [
     {
       "action" : "deny",
       "creationDate" : 1639531113.088841,
       "direction" : "incoming",
+      "disabled" : true,
       "modificationDate" : 1639531137.7402339,
       "owner" : "any",
       "process" : "any",
@@ -36,6 +37,7 @@
       "action" : "deny",
       "creationDate" : 1639531077.276958,
       "direction" : "incoming",
+      "disabled" : true,
       "modificationDate" : 1639531139.3244681,
       "owner" : "any",
       "process" : "any",

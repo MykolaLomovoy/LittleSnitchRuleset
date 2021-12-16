@@ -1,5 +1,5 @@
 {
-  "description" : "macOS Local Network rules. These rules are recommended to be always enabled in order to have proper network access.",
+  "description" : "macOS Local Network rules. These rules enable basic Local Network operation, DHCP configuration, connection between Apple devices, AirDrop functionality, WiFi network configuration and more. Recommended to always keep this group of rules enabled.",
   "name" : "macOS Local",
   "rules" : [
     {

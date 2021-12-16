@@ -1,5 +1,5 @@
 {
-  "description" : "Built-in macOS software and Apple utilities. Excluding Terminal application for security reasons.",
+  "description" : "Built-in macOS software and Apple utilities, including commonly used Apple utilities available via AppStore. Excluding Terminal application for security reasons.",
   "name" : "macOS Software",
   "rules" : [
     {
