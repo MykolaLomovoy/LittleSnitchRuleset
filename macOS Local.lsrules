@@ -5,10 +5,36 @@
     {
       "action" : "allow",
       "creationDate" : 1639654953.5907331,
-      "disabled" : true,
       "modificationDate" : 1639654953.5907331,
       "owner" : "system",
       "process" : "\/usr\/libexec\/bootpd",
+      "remote" : "bpf"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639655335.114727,
+      "modificationDate" : 1639655335.114727,
+      "owner" : "system",
+      "process" : "\/usr\/libexec\/airportd",
+      "remote" : "bpf"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639655461.5443091,
+      "direction" : "incoming",
+      "modificationDate" : 1639655461.5443091,
+      "owner" : "system",
+      "ports" : "68",
+      "process" : "\/usr\/libexec\/configd",
+      "protocol" : "udp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639655461.5443091,
+      "modificationDate" : 1639655461.5443091,
+      "owner" : "system",
+      "process" : "\/usr\/libexec\/configd",
       "remote" : "bpf"
     },
     {
