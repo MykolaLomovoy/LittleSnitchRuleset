@@ -65,5 +65,14 @@
       "protocol" : "icmp",
       "remote" : "any"
     },
+    {
+      "action" : "allow",
+      "creationDate" : 1639657411.0022011,
+      "direction" : "incoming",
+      "modificationDate" : 1639657411.0022011,
+      "owner" : "me",
+      "process" : "\/usr\/libexec\/rapportd",
+      "remote" : "local-net"
+    }
   ]
 }
