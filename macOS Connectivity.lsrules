@@ -12,6 +12,14 @@
     },
     {
       "action" : "allow",
+      "creationDate" : 1639654698.0858951,
+      "modificationDate" : 1639654698.0858951,
+      "owner" : "any",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote" : "bpf"
+    },
+    {
+      "action" : "allow",
       "creationDate" : 1639528112.6652069,
       "modificationDate" : 1639528112.6652069,
       "owner" : "system",
