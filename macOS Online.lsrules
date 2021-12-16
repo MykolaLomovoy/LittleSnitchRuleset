@@ -150,6 +150,30 @@
       "process" : "\/System\/Library\/PrivateFrameworks\/IDS.framework\/identityservicesd.app\/Contents\/MacOS\/identityservicesd",
       "protocol" : "udp",
       "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639624181.630985,
+      "modificationDate" : 1639639566.531455,
+      "owner" : "me",
+      "process" : "any",
+      "remote-domains" : "comodoca.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639624171.0339799,
+      "modificationDate" : 1639639566.531883,
+      "owner" : "me",
+      "process" : "any",
+      "remote-domains" : "digicert.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639624185.3533959,
+      "modificationDate" : 1639639566.5324779,
+      "owner" : "me",
+      "process" : "any",
+      "remote-domains" : "symcd.com"
     }
   ]
 }
