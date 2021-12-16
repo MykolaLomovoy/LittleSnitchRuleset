@@ -18,7 +18,6 @@
       "owner" : "me",
       "ports" : "443",
       "process" : "\/Applications\/Little Snitch.app\/Contents\/Components\/Little Snitch Software Update.app\/Contents\/MacOS\/Little Snitch Software Update",
-      "protocol" : "tcp",
       "remote-domains" : "obdev.at"
     }
   ]
