@@ -33,6 +33,15 @@
       "owner" : "system",
       "process" : "\/usr\/sbin\/ocspd",
       "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639657287.865104,
+      "direction" : "incoming",
+      "modificationDate" : 1639657287.865104,
+      "owner" : "any",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote" : "local-net"
     }
   ]
 }
