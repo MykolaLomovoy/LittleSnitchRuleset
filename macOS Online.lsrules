@@ -183,6 +183,44 @@
       "process" : "\/System\/Library\/PrivateFrameworks\/iTunesCloud.framework\/Support\/itunescloudd",
       "protocol" : "tcp",
       "remote" : "any"
-    }
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639526196.475981,
+      "disabled" : true,
+      "modificationDate" : 1639583586.476841,
+      "owner" : "system",
+      "ports" : "123",
+      "process" : "\/usr\/bin\/sntp",
+      "protocol" : "udp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639475875,
+      "disabled" : true,
+      "modificationDate" : 1639587614.4298329,
+      "owner" : "system",
+      "ports" : "123",
+      "process" : "\/usr\/libexec\/timed",
+      "protocol" : "udp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639624185.3533959,
+      "modificationDate" : 1639639566.5324779,
+      "owner" : "me",
+      "process" : "any",
+      "remote-domains" : "akadns.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639624185.3533959,
+      "modificationDate" : 1639639566.5324779,
+      "owner" : "me",
+      "process" : "any",
+      "remote-domains" : "akamai.net"
+    },
   ]
 }
