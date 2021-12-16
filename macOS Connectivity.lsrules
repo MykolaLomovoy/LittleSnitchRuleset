@@ -25,6 +25,14 @@
       "owner" : "system",
       "process" : "\/usr\/libexec\/trustd",
       "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639475875,
+      "modificationDate" : 1639583590.6946681,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/ocspd",
+      "remote" : "any"
     }
   ]
 }
