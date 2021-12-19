@@ -356,22 +356,6 @@
     },
     {
       "action" : "allow",
-      "creationDate" : 1639475963.3764949,
-      "modificationDate" : 1639475963.3764949,
-      "owner" : "me",
-      "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
-      "remote" : "any"
-    },
-    {
-      "action" : "allow",
-      "creationDate" : 1639477553.163816,
-      "modificationDate" : 1639477553.163816,
-      "owner" : "me",
-      "process" : "\/Applications\/Safari Technology Preview.app\/Contents\/MacOS\/Safari Technology Preview",
-      "remote" : "any"
-    },
-    {
-      "action" : "allow",
       "creationDate" : 1639477866.156903,
       "modificationDate" : 1639477866.156903,
       "owner" : "me",

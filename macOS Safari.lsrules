@@ -1,0 +1,22 @@
+{
+  "description" : "A set of rules for Safari Web-Browser.",
+  "name" : "macOS Safari",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1639478991,
+      "modificationDate" : 1639478991,
+      "owner" : "any",
+      "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639478991,
+      "modificationDate" : 1639478991,
+      "owner" : "any",
+      "process" : "\/Applications\/Safari Technology Preview.app\/Contents\/MacOS\/Safari Technology Preview",
+      "remote" : "any"
+    }
+  ]
+}
