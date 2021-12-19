@@ -3,17 +3,75 @@
   "name" : "macOS Safari",
   "rules" : [
     {
-      "action" : "allow",
-      "creationDate" : 1639478991,
-      "modificationDate" : 1639478991,
+      "action" : "deny",
+      "creationDate" : 1639952238.5278111,
+      "direction" : "incoming",
+      "modificationDate" : 1639952238.5278111,
       "owner" : "any",
       "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
       "remote" : "any"
     },
     {
       "action" : "allow",
-      "creationDate" : 1639478991,
-      "modificationDate" : 1639478991,
+      "creationDate" : 1639952125.5346742,
+      "modificationDate" : 1639952395.071615,
+      "owner" : "any",
+      "ports" : "80",
+      "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
+      "protocol" : "tcp",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639952149.1615071,
+      "modificationDate" : 1639952149.1615071,
+      "owner" : "any",
+      "ports" : "443",
+      "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639952064.45717,
+      "modificationDate" : 1639952064.45717,
+      "owner" : "any",
+      "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1639952225.6542602,
+      "direction" : "incoming",
+      "modificationDate" : 1639952225.6542602,
+      "owner" : "any",
+      "process" : "\/Applications\/Safari Technology Preview.app\/Contents\/MacOS\/Safari Technology Preview",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639952169.2851691,
+      "modificationDate" : 1639952408.4109988,
+      "owner" : "any",
+      "ports" : "80",
+      "process" : "\/Applications\/Safari Technology Preview.app\/Contents\/MacOS\/Safari Technology Preview",
+      "protocol" : "tcp",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639952184.3901939,
+      "modificationDate" : 1639952184.3901939,
+      "owner" : "any",
+      "ports" : "443",
+      "process" : "\/Applications\/Safari Technology Preview.app\/Contents\/MacOS\/Safari Technology Preview",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639952064.45717,
+      "modificationDate" : 1639952064.45717,
       "owner" : "any",
       "process" : "\/Applications\/Safari Technology Preview.app\/Contents\/MacOS\/Safari Technology Preview",
       "remote" : "any"
