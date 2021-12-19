@@ -30,7 +30,7 @@
       "remote" : "any"
     },
     {
-      "action" : "allow",
+      "action" : "deny",
       "creationDate" : 1639952064.45717,
       "modificationDate" : 1639952064.45717,
       "owner" : "any",
@@ -65,7 +65,7 @@
       "remote" : "any"
     },
     {
-      "action" : "allow",
+      "action" : "deny",
       "creationDate" : 1639952064.45717,
       "modificationDate" : 1639952064.45717,
       "owner" : "any",
