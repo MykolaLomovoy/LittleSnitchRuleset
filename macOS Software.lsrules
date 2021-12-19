@@ -489,6 +489,22 @@
       "owner" : "me",
       "process" : "\/Applications\/Xcode.app\/Contents\/MacOS\/Xcode",
       "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639949470.304497,
+      "modificationDate" : 1639949470.304497,
+      "owner" : "any",
+      "process" : "\/Applications\/Playgrounds.app\/Contents\/MacOS\/Playgrounds",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639949391.749861,
+      "modificationDate" : 1639949391.749861,
+      "owner" : "any",
+      "process" : "\/Applications\/TestFlight.app\/Contents\/MacOS\/TestFlight",
+      "remote" : "any"
     }
   ]
 }
