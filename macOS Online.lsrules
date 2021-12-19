@@ -203,5 +203,55 @@
       "process" : "any",
       "remote-domains" : "akamai.net"
     },
+    {
+      "action" : "allow",
+      "creationDate" : 1639624185.3533959,
+      "modificationDate" : 1639639566.5324779,
+      "owner" : "me",
+      "process" : "any",
+      "remote-domains" : "edgesuite.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639624185.3533959,
+      "modificationDate" : 1639639566.5324779,
+      "owner" : "me",
+      "process" : "any",
+      "remote-domains" : "entrust.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639624185.3533959,
+      "modificationDate" : 1639639566.5324779,
+      "owner" : "me",
+      "process" : "any",
+      "remote-domains" : "verisign.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639740096.049834,
+      "modificationDate" : 1639949945.5826669,
+      "owner" : "me",
+      "process" : "\/System\/Library\/PrivateFrameworks\/AMPLibrary.framework\/Versions\/A\/Support\/AMPLibraryAgent",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639811666.5830889,
+      "modificationDate" : 1639811666.5830889,
+      "owner" : "system",
+      "process" : "\/sbin\/ping",
+      "protocol" : "icmp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1639811662.11707,
+      "modificationDate" : 1639811662.11707,
+      "owner" : "system",
+      "process" : "\/usr\/sbin\/tcpdump",
+      "remote" : "any"
+    }
   ]
 }
