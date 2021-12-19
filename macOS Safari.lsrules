@@ -18,7 +18,6 @@
       "owner" : "any",
       "ports" : "80",
       "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
-      "protocol" : "tcp",
       "remote" : "local-net"
     },
     {
@@ -28,7 +27,6 @@
       "owner" : "any",
       "ports" : "443",
       "process" : "\/Applications\/Safari.app\/Contents\/MacOS\/Safari",
-      "protocol" : "tcp",
       "remote" : "any"
     },
     {
@@ -55,7 +53,6 @@
       "owner" : "any",
       "ports" : "80",
       "process" : "\/Applications\/Safari Technology Preview.app\/Contents\/MacOS\/Safari Technology Preview",
-      "protocol" : "tcp",
       "remote" : "local-net"
     },
     {
@@ -65,7 +62,6 @@
       "owner" : "any",
       "ports" : "443",
       "process" : "\/Applications\/Safari Technology Preview.app\/Contents\/MacOS\/Safari Technology Preview",
-      "protocol" : "tcp",
       "remote" : "any"
     },
     {
