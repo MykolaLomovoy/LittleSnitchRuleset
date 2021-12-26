@@ -1,0 +1,113 @@
+{
+  "description" : "Set of rules for Adobe Lighroom (App Store).",
+  "name" : "Adobe LR",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1640554200.6680191,
+      "direction" : "incoming",
+      "modificationDate" : 1640554200.6680191,
+      "owner" : "me",
+      "process" : "\/Applications\/Adobe Lightroom.app\/Contents\/MacOS\/Adobe Lightroom",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1640553886.3027282,
+      "modificationDate" : 1640554096.5798011,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Adobe Lightroom.app\/Contents\/MacOS\/Adobe Lightroom",
+      "remote-domains" : "adbephotos.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1640553836.4342151,
+      "modificationDate" : 1640554102.044446,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Adobe Lightroom.app\/Contents\/MacOS\/Adobe Lightroom",
+      "remote-domains" : "adobe.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1640553832.037523,
+      "modificationDate" : 1640554107.530247,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Adobe Lightroom.app\/Contents\/MacOS\/Adobe Lightroom",
+      "remote-domains" : "adobe.io"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1640553879.3165278,
+      "modificationDate" : 1640554112.4479651,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Adobe Lightroom.app\/Contents\/MacOS\/Adobe Lightroom",
+      "remote-domains" : "adobedtm.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1640553853.0531812,
+      "modificationDate" : 1640554117.820159,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Adobe Lightroom.app\/Contents\/MacOS\/Adobe Lightroom",
+      "remote-domains" : "adobelogin.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1640553883.0692391,
+      "modificationDate" : 1640554126.386868,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Adobe Lightroom.app\/Contents\/MacOS\/Adobe Lightroom",
+      "remote-domains" : "behance.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1640553849.7550421,
+      "modificationDate" : 1640554087.479017,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Adobe Lightroom.app\/Contents\/MacOS\/Adobe Lightroom",
+      "remote-domains" : "cloudfront.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1640553861.172586,
+      "modificationDate" : 1640554131.0205579,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Adobe Lightroom.app\/Contents\/MacOS\/Adobe Lightroom",
+      "remote-domains" : "demdex.net"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1640553945.2035351,
+      "modificationDate" : 1640554135.8398061,
+      "owner" : "me",
+      "ports" : "80",
+      "process" : "\/Applications\/Adobe Lightroom.app\/Contents\/MacOS\/Adobe Lightroom",
+      "remote-domains" : "photoshop.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1640553858.272249,
+      "modificationDate" : 1640554144.9458489,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Adobe Lightroom.app\/Contents\/MacOS\/Adobe Lightroom",
+      "remote-domains" : "typekit.net"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1640554315.6738329,
+      "modificationDate" : 1640554315.6738329,
+      "owner" : "me",
+      "process" : "\/Applications\/Adobe Lightroom.app\/Contents\/MacOS\/Adobe Lightroom",
+      "remote" : "any"
+    }
+  ]
+}
