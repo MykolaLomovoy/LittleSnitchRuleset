@@ -489,6 +489,14 @@
       "owner" : "any",
       "process" : "\/Applications\/TestFlight.app\/Contents\/MacOS\/TestFlight",
       "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1640554506.4729052,
+      "modificationDate" : 1640554506.4729052,
+      "owner" : "me",
+      "process" : "\/Applications\/GarageBand.app\/Contents\/MacOS\/GarageBand",
+      "remote" : "any"
     }
   ]
 }
